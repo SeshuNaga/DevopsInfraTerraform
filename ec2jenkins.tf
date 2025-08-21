@@ -32,7 +32,7 @@ resource "aws_security_group" "jenkins_sg" {
 }
 
 resource "aws_instance" "ec2jenkins" {
-    ami = "ami-0c4a668b99e68bbde"
+    ami = "ami-04726aaccec3fc9a2"
     instance_type = "t2.micro"
     associate_public_ip_address = true
     vpc_security_group_ids = [ aws_security_group.jenkins_sg.id ]
