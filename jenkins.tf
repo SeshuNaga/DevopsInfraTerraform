@@ -1,5 +1,5 @@
 resource "aws_instance" "jenkins_server" {
-    ami = "ami-0f58b397bc5c1f2e8"
+    ami = "ami-04726aaccec3fc9a2"
     instance_type = "t2.micro"
     subnet_id = aws_subnet.project_devil_public_subnet.id
     security_groups = [ aws_security_group.project_devil_security_group.id ]
