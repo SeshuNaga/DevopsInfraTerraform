@@ -3,7 +3,7 @@ pipeline {
 
     environment {
         AWS_REGION = "ap-south-1"
-        TF_VERSION = "1.7.0"
+        TF_VERSION = "1.7.0 "
     }
 
     stages {
